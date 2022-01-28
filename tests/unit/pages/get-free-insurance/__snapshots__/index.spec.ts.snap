@@ -1,0 +1,2853 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetFreeInsurance should render and match snapshot 1`] = `
+VueWrapper {
+  "__app": Object {
+    "_component": Object {
+      "name": "VTU_ROOT",
+      "render": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <div
+        class="get-free-insurance"
+      >
+        <h1>
+          Get free insurance
+        </h1>
+        <p>
+           Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. 
+        </p>
+        <share-link-stub
+          class="get-free-insurance__share-link"
+          link="https://luko.eu/join/luko@email.com"
+        />
+        <h2
+          class="get-free-insurance__send-invites"
+        >
+           Send invites to friends and family 
+        </h2>
+        <p>
+           We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. 
+        </p>
+        <email-invite-stub
+          class="get-free-insurance__email-invite"
+        />
+        <div
+          class="get-free-insurance__bottom-banner"
+        >
+          <div
+            class="get-free-insurance__bottom-banner__content"
+          >
+            <h3>
+              Luko also protects your home
+            </h3>
+            <p>
+               Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+            </p>
+            <div
+              class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+            >
+              <button-stub
+                disabled="false"
+                imagebutton="false"
+              />
+            </div>
+          </div>
+          <div
+            class="get-free-insurance__bottom-banner__gift-image"
+          >
+            <img />
+          </div>
+        </div>
+      </div>
+    </div>,
+    "_context": Object {
+      "app": [Circular],
+      "components": Object {
+        "transition": Object {
+          "name": "transition",
+        },
+        "transition-group": Object {
+          "name": "transition-group",
+        },
+      },
+      "config": Object {
+        "compilerOptions": Object {},
+        "errorHandler": undefined,
+        "globalProperties": Object {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": Object {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": Object {},
+      "emitsCache": WeakMap {},
+      "mixins": Array [
+        Object {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": Object {},
+      "reload": [Function],
+    },
+    "_instance": Object {
+      "a": null,
+      "accessCache": Object {},
+      "appContext": Object {
+        "app": [Circular],
+        "components": Object {
+          "transition": Object {
+            "name": "transition",
+          },
+          "transition-group": Object {
+            "name": "transition-group",
+          },
+        },
+        "config": Object {
+          "compilerOptions": Object {},
+          "errorHandler": undefined,
+          "globalProperties": Object {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": Object {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": Object {},
+        "emitsCache": WeakMap {},
+        "mixins": Array [
+          Object {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": Object {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": Object {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": Object {},
+      "da": null,
+      "data": Object {},
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "active": true,
+        "allowRecurse": true,
+        "deps": Array [
+          Set {
+            [Circular],
+          },
+          Set {
+            [Circular],
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "scheduler": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": Object {},
+      "propsDefaults": Object {},
+      "propsOptions": Array [
+        Object {},
+        Array [],
+      ],
+      "provides": Object {},
+      "proxy": Object {},
+      "refs": Object {
+        "VTU_COMPONENT": Object {
+          "handleBottomBannerActionOnClick": [Function],
+          "hasOwnProperty": [Function],
+          "shareLink": "https://luko.eu/join/luko@email.com",
+        },
+      },
+      "render": [Function],
+      "renderCache": Array [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "active": true,
+        "cleanups": Array [],
+        "effects": Array [
+          ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": Array [
+              Set {
+                [Circular],
+              },
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+          },
+        ],
+      },
+      "setupContext": null,
+      "setupState": Object {},
+      "slots": Object {},
+      "sp": null,
+      "subTree": Object {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": Object {
+          "a": null,
+          "accessCache": Object {
+            "@@__IMMUTABLE_ITERABLE__@@": 0,
+            "@@__IMMUTABLE_RECORD__@@": 0,
+            "_isMockFunction": 0,
+            "constructor": 0,
+            "handleBottomBannerActionOnClick": 4,
+            "hasOwnProperty": 4,
+            "isVueInstance": 0,
+            "shareLink": 1,
+            "toJSON": 0,
+            Symbol(Symbol.toStringTag): 0,
+          },
+          "appContext": Object {
+            "app": [Circular],
+            "components": Object {
+              "transition": Object {
+                "name": "transition",
+              },
+              "transition-group": Object {
+                "name": "transition-group",
+              },
+            },
+            "config": Object {
+              "compilerOptions": Object {},
+              "errorHandler": undefined,
+              "globalProperties": Object {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": Object {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": Object {},
+            "emitsCache": WeakMap {},
+            "mixins": Array [
+              Object {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": Object {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": Object {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": Object {
+            "Button": Object {
+              "computed": Object {},
+              "extends": Object {},
+              "methods": Object {
+                "handleOnClick": [Function],
+              },
+              "props": Object {
+                "disabled": [Function],
+                "imageButton": [Function],
+                "onClick": [Function],
+              },
+              "render": [Function],
+              "setup": [Function],
+            },
+            "EmailInvite": Object {
+              "components": Object {
+                "Button": Object {
+                  "computed": Object {},
+                  "extends": Object {},
+                  "methods": Object {
+                    "handleOnClick": [Function],
+                  },
+                  "props": Object {
+                    "disabled": [Function],
+                    "imageButton": [Function],
+                    "onClick": [Function],
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                },
+                "TextArea": Object {
+                  "computed": Object {},
+                  "extends": Object {},
+                  "methods": Object {},
+                  "props": Object {
+                    "onChange": [Function],
+                    "placeholder": [Function],
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                  "watch": Object {
+                    "value": [Function],
+                  },
+                },
+              },
+              "computed": Object {},
+              "extends": Object {},
+              "methods": Object {
+                "handleEmailListOnChange": [Function],
+                "handleSendInvitesOnClick": [Function],
+              },
+              "props": Object {},
+              "render": [Function],
+              "setup": [Function],
+            },
+            "ShareLink": Object {
+              "components": Object {
+                "Button": Object {
+                  "computed": Object {},
+                  "extends": Object {},
+                  "methods": Object {
+                    "handleOnClick": [Function],
+                  },
+                  "props": Object {
+                    "disabled": [Function],
+                    "imageButton": [Function],
+                    "onClick": [Function],
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                },
+              },
+              "computed": Object {},
+              "extends": Object {},
+              "methods": Object {
+                "handleCopyInviteLinkClick": [Function],
+              },
+              "props": Object {
+                "link": [Function],
+              },
+              "render": [Function],
+              "setup": [Function],
+            },
+          },
+          "ctx": Object {
+            "handleBottomBannerActionOnClick": [Function],
+            "hasOwnProperty": [Function],
+            "shareLink": "https://luko.eu/join/luko@email.com",
+          },
+          "da": null,
+          "data": Object {},
+          "devtoolsRawSetupState": Object {
+            "shareLink": RefImpl {
+              "__v_isRef": true,
+              "__v_isShallow": false,
+              "_rawValue": "https://luko.eu/join/luko@email.com",
+              "_value": "https://luko.eu/join/luko@email.com",
+              "dep": Set {
+                ReactiveEffect {
+                  "active": true,
+                  "allowRecurse": true,
+                  "deps": Array [
+                    [Circular],
+                  ],
+                  "fn": [Function],
+                  "onTrack": undefined,
+                  "onTrigger": undefined,
+                  "scheduler": [Function],
+                },
+              },
+            },
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "active": true,
+            "allowRecurse": true,
+            "deps": Array [
+              Set {
+                [Circular],
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": null,
+          "exposed": null,
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": Object {},
+          "propsDefaults": Object {},
+          "propsOptions": Array [
+            Object {},
+            Array [],
+          ],
+          "provides": Object {},
+          "proxy": Object {
+            "handleBottomBannerActionOnClick": [Function],
+            "hasOwnProperty": [Function],
+            "shareLink": "https://luko.eu/join/luko@email.com",
+          },
+          "refs": Object {},
+          "render": [Function],
+          "renderCache": Array [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "active": true,
+            "cleanups": Array [],
+            "effects": Array [
+              ReactiveEffect {
+                "active": true,
+                "allowRecurse": true,
+                "deps": Array [
+                  Set {
+                    [Circular],
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+              },
+            ],
+          },
+          "setupContext": Object {
+            "attrs": Object {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": Object {},
+          },
+          "setupState": Object {
+            "shareLink": "https://luko.eu/join/luko@email.com",
+          },
+          "slots": Object {},
+          "sp": null,
+          "subTree": Object {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": Array [
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Get free insurance",
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <h1>
+                  Get free insurance
+                </h1>,
+                "key": null,
+                "patchFlag": -1,
+                "props": null,
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "h1",
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": " Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. ",
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p>
+                   Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. 
+                </p>,
+                "key": null,
+                "patchFlag": -1,
+                "props": null,
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "p",
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": Object {
+                  "a": null,
+                  "accessCache": Object {},
+                  "appContext": Object {
+                    "app": [Circular],
+                    "components": Object {
+                      "transition": Object {
+                        "name": "transition",
+                      },
+                      "transition-group": Object {
+                        "name": "transition-group",
+                      },
+                    },
+                    "config": Object {
+                      "compilerOptions": Object {},
+                      "errorHandler": undefined,
+                      "globalProperties": Object {},
+                      "isNativeTag": [Function],
+                      "optionMergeStrategies": Object {},
+                      "performance": false,
+                      "warnHandler": undefined,
+                    },
+                    "directives": Object {},
+                    "emitsCache": WeakMap {},
+                    "mixins": Array [
+                      Object {
+                        "beforeCreate": [Function],
+                      },
+                    ],
+                    "optionsCache": WeakMap {},
+                    "propsCache": WeakMap {},
+                    "provides": Object {},
+                    "reload": [Function],
+                  },
+                  "asyncDep": null,
+                  "asyncResolved": false,
+                  "attrs": Object {
+                    "class": "get-free-insurance__share-link",
+                  },
+                  "bc": null,
+                  "bm": null,
+                  "bu": null,
+                  "bum": null,
+                  "c": null,
+                  "components": null,
+                  "ctx": Object {
+                    "link": "https://luko.eu/join/luko@email.com",
+                  },
+                  "da": null,
+                  "data": Object {},
+                  "directives": null,
+                  "ec": null,
+                  "effect": ReactiveEffect {
+                    "active": true,
+                    "allowRecurse": true,
+                    "deps": Array [
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                    ],
+                    "fn": [Function],
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "emit": [Function],
+                  "emitsOptions": null,
+                  "emitted": null,
+                  "exposeProxy": null,
+                  "exposed": null,
+                  "inheritAttrs": undefined,
+                  "isDeactivated": false,
+                  "isMounted": true,
+                  "isUnmounted": false,
+                  "m": null,
+                  "next": null,
+                  "parent": [Circular],
+                  "props": Object {
+                    "link": "https://luko.eu/join/luko@email.com",
+                  },
+                  "propsDefaults": Object {},
+                  "propsOptions": Array [
+                    Object {
+                      "link": Object {
+                        "0": false,
+                        "1": true,
+                        "type": [Function],
+                      },
+                    },
+                    Array [],
+                  ],
+                  "provides": Object {},
+                  "proxy": Object {
+                    "link": "https://luko.eu/join/luko@email.com",
+                  },
+                  "refs": Object {},
+                  "render": [Function],
+                  "renderCache": Array [],
+                  "root": [Circular],
+                  "rtc": null,
+                  "rtg": null,
+                  "scope": EffectScope {
+                    "active": true,
+                    "cleanups": Array [],
+                    "effects": Array [
+                      ReactiveEffect {
+                        "active": true,
+                        "allowRecurse": true,
+                        "deps": Array [
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                        ],
+                        "fn": [Function],
+                        "onTrack": undefined,
+                        "onTrigger": undefined,
+                        "scheduler": [Function],
+                      },
+                    ],
+                  },
+                  "setupContext": null,
+                  "setupState": Object {},
+                  "slots": Object {},
+                  "sp": null,
+                  "subTree": Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <share-link-stub
+                      class="get-free-insurance__share-link"
+                      link="https://luko.eu/join/luko@email.com"
+                    />,
+                    "key": null,
+                    "patchFlag": 16,
+                    "props": Object {
+                      "class": "get-free-insurance__share-link",
+                      "link": "https://luko.eu/join/luko@email.com",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "share-link-stub",
+                  },
+                  "suspense": null,
+                  "suspenseId": 0,
+                  "type": Object {
+                    "compatConfig": Object {
+                      "MODE": 3,
+                      "RENDER_FUNCTION": false,
+                    },
+                    "name": "ShareLink",
+                    "props": Object {
+                      "link": [Function],
+                    },
+                    "render": [Function],
+                  },
+                  "u": null,
+                  "uid": 2,
+                  "um": null,
+                  "update": [Function],
+                  "vnode": [Circular],
+                  "withProxy": null,
+                },
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": Array [
+                  "link",
+                ],
+                "el": <share-link-stub
+                  class="get-free-insurance__share-link"
+                  link="https://luko.eu/join/luko@email.com"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": Object {
+                  "class": "get-free-insurance__share-link",
+                  "link": "https://luko.eu/join/luko@email.com",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 4,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": Object {
+                  "compatConfig": Object {
+                    "MODE": 3,
+                    "RENDER_FUNCTION": false,
+                  },
+                  "name": "ShareLink",
+                  "props": Object {
+                    "link": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": " Send invites to friends and family ",
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <h2
+                  class="get-free-insurance__send-invites"
+                >
+                   Send invites to friends and family 
+                </h2>,
+                "key": null,
+                "patchFlag": -1,
+                "props": Object {
+                  "class": "get-free-insurance__send-invites",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "h2",
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": " We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. ",
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p>
+                   We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. 
+                </p>,
+                "key": null,
+                "patchFlag": -1,
+                "props": null,
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "p",
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": Object {
+                  "a": null,
+                  "accessCache": Object {},
+                  "appContext": Object {
+                    "app": [Circular],
+                    "components": Object {
+                      "transition": Object {
+                        "name": "transition",
+                      },
+                      "transition-group": Object {
+                        "name": "transition-group",
+                      },
+                    },
+                    "config": Object {
+                      "compilerOptions": Object {},
+                      "errorHandler": undefined,
+                      "globalProperties": Object {},
+                      "isNativeTag": [Function],
+                      "optionMergeStrategies": Object {},
+                      "performance": false,
+                      "warnHandler": undefined,
+                    },
+                    "directives": Object {},
+                    "emitsCache": WeakMap {},
+                    "mixins": Array [
+                      Object {
+                        "beforeCreate": [Function],
+                      },
+                    ],
+                    "optionsCache": WeakMap {},
+                    "propsCache": WeakMap {},
+                    "provides": Object {},
+                    "reload": [Function],
+                  },
+                  "asyncDep": null,
+                  "asyncResolved": false,
+                  "attrs": Object {
+                    "class": "get-free-insurance__email-invite",
+                  },
+                  "bc": null,
+                  "bm": null,
+                  "bu": null,
+                  "bum": null,
+                  "c": null,
+                  "components": null,
+                  "ctx": Object {},
+                  "da": null,
+                  "data": Object {},
+                  "directives": null,
+                  "ec": null,
+                  "effect": ReactiveEffect {
+                    "active": true,
+                    "allowRecurse": true,
+                    "deps": Array [
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                    ],
+                    "fn": [Function],
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "emit": [Function],
+                  "emitsOptions": null,
+                  "emitted": null,
+                  "exposeProxy": null,
+                  "exposed": null,
+                  "inheritAttrs": undefined,
+                  "isDeactivated": false,
+                  "isMounted": true,
+                  "isUnmounted": false,
+                  "m": null,
+                  "next": null,
+                  "parent": [Circular],
+                  "props": Object {},
+                  "propsDefaults": Object {},
+                  "propsOptions": Array [
+                    Object {},
+                    Array [],
+                  ],
+                  "provides": Object {},
+                  "proxy": Object {},
+                  "refs": Object {},
+                  "render": [Function],
+                  "renderCache": Array [],
+                  "root": [Circular],
+                  "rtc": null,
+                  "rtg": null,
+                  "scope": EffectScope {
+                    "active": true,
+                    "cleanups": Array [],
+                    "effects": Array [
+                      ReactiveEffect {
+                        "active": true,
+                        "allowRecurse": true,
+                        "deps": Array [
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                        ],
+                        "fn": [Function],
+                        "onTrack": undefined,
+                        "onTrigger": undefined,
+                        "scheduler": [Function],
+                      },
+                    ],
+                  },
+                  "setupContext": null,
+                  "setupState": Object {},
+                  "slots": Object {},
+                  "sp": null,
+                  "subTree": Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <email-invite-stub
+                      class="get-free-insurance__email-invite"
+                    />,
+                    "key": null,
+                    "patchFlag": 16,
+                    "props": Object {
+                      "class": "get-free-insurance__email-invite",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "email-invite-stub",
+                  },
+                  "suspense": null,
+                  "suspenseId": 0,
+                  "type": Object {
+                    "compatConfig": Object {
+                      "MODE": 3,
+                      "RENDER_FUNCTION": false,
+                    },
+                    "name": "EmailInvite",
+                    "props": Object {},
+                    "render": [Function],
+                  },
+                  "u": null,
+                  "uid": 3,
+                  "um": null,
+                  "update": [Function],
+                  "vnode": [Circular],
+                  "withProxy": null,
+                },
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <email-invite-stub
+                  class="get-free-insurance__email-invite"
+                />,
+                "key": null,
+                "patchFlag": 0,
+                "props": Object {
+                  "class": "get-free-insurance__email-invite",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 4,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": Object {
+                  "compatConfig": Object {
+                    "MODE": 3,
+                    "RENDER_FUNCTION": false,
+                  },
+                  "name": "EmailInvite",
+                  "props": Object {},
+                  "render": [Function],
+                },
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": Array [
+                  Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": Array [
+                      Object {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": "Luko also protects your home",
+                        "component": null,
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <h3>
+                          Luko also protects your home
+                        </h3>,
+                        "key": null,
+                        "patchFlag": -1,
+                        "props": null,
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "h3",
+                      },
+                      Object {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": " Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! ",
+                        "component": null,
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <p>
+                           Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+                        </p>,
+                        "key": null,
+                        "patchFlag": -1,
+                        "props": null,
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 9,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "p",
+                      },
+                      Object {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": Array [
+                          Object {
+                            "__v_isVNode": true,
+                            "__v_skip": true,
+                            "anchor": null,
+                            "appContext": null,
+                            "children": Object {
+                              "default": [Function],
+                            },
+                            "component": Object {
+                              "a": null,
+                              "accessCache": Object {},
+                              "appContext": Object {
+                                "app": [Circular],
+                                "components": Object {
+                                  "transition": Object {
+                                    "name": "transition",
+                                  },
+                                  "transition-group": Object {
+                                    "name": "transition-group",
+                                  },
+                                },
+                                "config": Object {
+                                  "compilerOptions": Object {},
+                                  "errorHandler": undefined,
+                                  "globalProperties": Object {},
+                                  "isNativeTag": [Function],
+                                  "optionMergeStrategies": Object {},
+                                  "performance": false,
+                                  "warnHandler": undefined,
+                                },
+                                "directives": Object {},
+                                "emitsCache": WeakMap {},
+                                "mixins": Array [
+                                  Object {
+                                    "beforeCreate": [Function],
+                                  },
+                                ],
+                                "optionsCache": WeakMap {},
+                                "propsCache": WeakMap {},
+                                "provides": Object {},
+                                "reload": [Function],
+                              },
+                              "asyncDep": null,
+                              "asyncResolved": false,
+                              "attrs": Object {},
+                              "bc": null,
+                              "bm": null,
+                              "bu": null,
+                              "bum": null,
+                              "c": null,
+                              "components": null,
+                              "ctx": Object {
+                                "disabled": false,
+                                "imageButton": false,
+                                "onClick": [Function],
+                              },
+                              "da": null,
+                              "data": Object {},
+                              "directives": null,
+                              "ec": null,
+                              "effect": ReactiveEffect {
+                                "active": true,
+                                "allowRecurse": true,
+                                "deps": Array [
+                                  Set {
+                                    [Circular],
+                                  },
+                                  Set {
+                                    [Circular],
+                                  },
+                                  Set {
+                                    [Circular],
+                                  },
+                                  Set {
+                                    [Circular],
+                                  },
+                                  Set {
+                                    [Circular],
+                                  },
+                                ],
+                                "fn": [Function],
+                                "onTrack": undefined,
+                                "onTrigger": undefined,
+                                "scheduler": [Function],
+                              },
+                              "emit": [Function],
+                              "emitsOptions": null,
+                              "emitted": null,
+                              "exposeProxy": null,
+                              "exposed": null,
+                              "inheritAttrs": undefined,
+                              "isDeactivated": false,
+                              "isMounted": true,
+                              "isUnmounted": false,
+                              "m": null,
+                              "next": null,
+                              "parent": [Circular],
+                              "props": Object {
+                                "disabled": false,
+                                "imageButton": false,
+                                "onClick": [Function],
+                              },
+                              "propsDefaults": Object {},
+                              "propsOptions": Array [
+                                Object {
+                                  "disabled": Object {
+                                    "0": true,
+                                    "1": true,
+                                    "type": [Function],
+                                  },
+                                  "imageButton": Object {
+                                    "0": true,
+                                    "1": true,
+                                    "type": [Function],
+                                  },
+                                  "onClick": Object {
+                                    "0": false,
+                                    "1": true,
+                                    "type": [Function],
+                                  },
+                                },
+                                Array [
+                                  "imageButton",
+                                  "disabled",
+                                ],
+                              ],
+                              "provides": Object {},
+                              "proxy": Object {
+                                "disabled": false,
+                                "imageButton": false,
+                                "onClick": [Function],
+                              },
+                              "refs": Object {},
+                              "render": [Function],
+                              "renderCache": Array [],
+                              "root": [Circular],
+                              "rtc": null,
+                              "rtg": null,
+                              "scope": EffectScope {
+                                "active": true,
+                                "cleanups": Array [],
+                                "effects": Array [
+                                  ReactiveEffect {
+                                    "active": true,
+                                    "allowRecurse": true,
+                                    "deps": Array [
+                                      Set {
+                                        [Circular],
+                                      },
+                                      Set {
+                                        [Circular],
+                                      },
+                                      Set {
+                                        [Circular],
+                                      },
+                                      Set {
+                                        [Circular],
+                                      },
+                                      Set {
+                                        [Circular],
+                                      },
+                                    ],
+                                    "fn": [Function],
+                                    "onTrack": undefined,
+                                    "onTrigger": undefined,
+                                    "scheduler": [Function],
+                                  },
+                                ],
+                              },
+                              "setupContext": null,
+                              "setupState": Object {},
+                              "slots": Object {
+                                "default": [Function],
+                              },
+                              "sp": null,
+                              "subTree": Object {
+                                "__v_isVNode": true,
+                                "__v_skip": true,
+                                "anchor": null,
+                                "appContext": null,
+                                "children": null,
+                                "component": null,
+                                "dirs": null,
+                                "dynamicChildren": null,
+                                "dynamicProps": null,
+                                "el": <button-stub
+                                  disabled="false"
+                                  imagebutton="false"
+                                />,
+                                "key": null,
+                                "patchFlag": 0,
+                                "props": Object {
+                                  "disabled": false,
+                                  "imageButton": false,
+                                  "onClick": [Function],
+                                },
+                                "ref": null,
+                                "scopeId": null,
+                                "shapeFlag": 1,
+                                "slotScopeIds": null,
+                                "ssContent": null,
+                                "ssFallback": null,
+                                "staticCount": 0,
+                                "suspense": null,
+                                "target": null,
+                                "targetAnchor": null,
+                                "transition": null,
+                                "type": "button-stub",
+                              },
+                              "suspense": null,
+                              "suspenseId": 0,
+                              "type": Object {
+                                "compatConfig": Object {
+                                  "MODE": 3,
+                                  "RENDER_FUNCTION": false,
+                                },
+                                "name": "Button",
+                                "props": Object {
+                                  "disabled": [Function],
+                                  "imageButton": [Function],
+                                  "onClick": [Function],
+                                },
+                                "render": [Function],
+                              },
+                              "u": null,
+                              "uid": 4,
+                              "um": null,
+                              "update": [Function],
+                              "vnode": [Circular],
+                              "withProxy": null,
+                            },
+                            "dirs": null,
+                            "dynamicChildren": null,
+                            "dynamicProps": Array [
+                              "onClick",
+                            ],
+                            "el": <button-stub
+                              disabled="false"
+                              imagebutton="false"
+                            />,
+                            "key": null,
+                            "patchFlag": 8,
+                            "props": Object {
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "scopeId": null,
+                            "shapeFlag": 36,
+                            "slotScopeIds": null,
+                            "ssContent": null,
+                            "ssFallback": null,
+                            "staticCount": 0,
+                            "suspense": null,
+                            "target": null,
+                            "targetAnchor": null,
+                            "transition": null,
+                            "type": Object {
+                              "compatConfig": Object {
+                                "MODE": 3,
+                                "RENDER_FUNCTION": false,
+                              },
+                              "name": "Button",
+                              "props": Object {
+                                "disabled": [Function],
+                                "imageButton": [Function],
+                                "onClick": [Function],
+                              },
+                              "render": [Function],
+                            },
+                          },
+                        ],
+                        "component": null,
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <div
+                          class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+                        >
+                          <button-stub
+                            disabled="false"
+                            imagebutton="false"
+                          />
+                        </div>,
+                        "key": null,
+                        "patchFlag": 0,
+                        "props": Object {
+                          "class": "get-free-insurance__bottom-banner__content__get-my-home-insured-action",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 17,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "div",
+                      },
+                    ],
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="get-free-insurance__bottom-banner__content"
+                    >
+                      <h3>
+                        Luko also protects your home
+                      </h3>
+                      <p>
+                         Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+                      </p>
+                      <div
+                        class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+                      >
+                        <button-stub
+                          disabled="false"
+                          imagebutton="false"
+                        />
+                      </div>
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": Object {
+                      "class": "get-free-insurance__bottom-banner__content",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                  Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": Array [
+                      Object {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": null,
+                        "component": null,
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <img />,
+                        "key": null,
+                        "patchFlag": 0,
+                        "props": Object {
+                          "src": undefined,
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 1,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "transition": null,
+                        "type": "img",
+                      },
+                    ],
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="get-free-insurance__bottom-banner__gift-image"
+                    >
+                      <img />
+                    </div>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": Object {
+                      "class": "get-free-insurance__bottom-banner__gift-image",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="get-free-insurance__bottom-banner"
+                >
+                  <div
+                    class="get-free-insurance__bottom-banner__content"
+                  >
+                    <h3>
+                      Luko also protects your home
+                    </h3>
+                    <p>
+                       Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+                    </p>
+                    <div
+                      class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+                    >
+                      <button-stub
+                        disabled="false"
+                        imagebutton="false"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="get-free-insurance__bottom-banner__gift-image"
+                  >
+                    <img />
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": Object {
+                  "class": "get-free-insurance__bottom-banner",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "dirs": null,
+            "dynamicChildren": Array [
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": Object {
+                  "a": null,
+                  "accessCache": Object {
+                    "@@__IMMUTABLE_ITERABLE__@@": 0,
+                    "@@__IMMUTABLE_RECORD__@@": 0,
+                    "_isMockFunction": 0,
+                    "constructor": 0,
+                    "isVueInstance": 0,
+                    "link": 3,
+                    "toJSON": 0,
+                    Symbol(Symbol.toStringTag): 0,
+                  },
+                  "appContext": Object {
+                    "app": [Circular],
+                    "components": Object {
+                      "transition": Object {
+                        "name": "transition",
+                      },
+                      "transition-group": Object {
+                        "name": "transition-group",
+                      },
+                    },
+                    "config": Object {
+                      "compilerOptions": Object {},
+                      "errorHandler": undefined,
+                      "globalProperties": Object {},
+                      "isNativeTag": [Function],
+                      "optionMergeStrategies": Object {},
+                      "performance": false,
+                      "warnHandler": undefined,
+                    },
+                    "directives": Object {},
+                    "emitsCache": WeakMap {},
+                    "mixins": Array [
+                      Object {
+                        "beforeCreate": [Function],
+                      },
+                    ],
+                    "optionsCache": WeakMap {},
+                    "propsCache": WeakMap {},
+                    "provides": Object {},
+                    "reload": [Function],
+                  },
+                  "asyncDep": null,
+                  "asyncResolved": false,
+                  "attrs": Object {
+                    "class": "get-free-insurance__share-link",
+                  },
+                  "bc": null,
+                  "bm": null,
+                  "bu": null,
+                  "bum": null,
+                  "c": null,
+                  "components": null,
+                  "ctx": Object {
+                    "link": "https://luko.eu/join/luko@email.com",
+                  },
+                  "da": null,
+                  "data": Object {},
+                  "directives": null,
+                  "ec": null,
+                  "effect": ReactiveEffect {
+                    "active": true,
+                    "allowRecurse": true,
+                    "deps": Array [
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                    ],
+                    "fn": [Function],
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "emit": [Function],
+                  "emitsOptions": null,
+                  "emitted": null,
+                  "exposeProxy": null,
+                  "exposed": null,
+                  "inheritAttrs": undefined,
+                  "isDeactivated": false,
+                  "isMounted": true,
+                  "isUnmounted": false,
+                  "m": null,
+                  "next": null,
+                  "parent": [Circular],
+                  "props": Object {
+                    "link": "https://luko.eu/join/luko@email.com",
+                  },
+                  "propsDefaults": Object {},
+                  "propsOptions": Array [
+                    Object {
+                      "link": Object {
+                        "0": false,
+                        "1": true,
+                        "type": [Function],
+                      },
+                    },
+                    Array [],
+                  ],
+                  "provides": Object {},
+                  "proxy": Object {
+                    "link": "https://luko.eu/join/luko@email.com",
+                  },
+                  "refs": Object {},
+                  "render": [Function],
+                  "renderCache": Array [],
+                  "root": [Circular],
+                  "rtc": null,
+                  "rtg": null,
+                  "scope": EffectScope {
+                    "active": true,
+                    "cleanups": Array [],
+                    "effects": Array [
+                      ReactiveEffect {
+                        "active": true,
+                        "allowRecurse": true,
+                        "deps": Array [
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                        ],
+                        "fn": [Function],
+                        "onTrack": undefined,
+                        "onTrigger": undefined,
+                        "scheduler": [Function],
+                      },
+                    ],
+                  },
+                  "setupContext": null,
+                  "setupState": Object {},
+                  "slots": Object {},
+                  "sp": null,
+                  "subTree": Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <share-link-stub
+                      class="get-free-insurance__share-link"
+                      link="https://luko.eu/join/luko@email.com"
+                    />,
+                    "key": null,
+                    "patchFlag": 16,
+                    "props": Object {
+                      "class": "get-free-insurance__share-link",
+                      "link": "https://luko.eu/join/luko@email.com",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "share-link-stub",
+                  },
+                  "suspense": null,
+                  "suspenseId": 0,
+                  "type": Object {
+                    "compatConfig": Object {
+                      "MODE": 3,
+                      "RENDER_FUNCTION": false,
+                    },
+                    "name": "ShareLink",
+                    "props": Object {
+                      "link": [Function],
+                    },
+                    "render": [Function],
+                  },
+                  "u": null,
+                  "uid": 2,
+                  "um": null,
+                  "update": [Function],
+                  "vnode": [Circular],
+                  "withProxy": null,
+                },
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": Array [
+                  "link",
+                ],
+                "el": <share-link-stub
+                  class="get-free-insurance__share-link"
+                  link="https://luko.eu/join/luko@email.com"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": Object {
+                  "class": "get-free-insurance__share-link",
+                  "link": "https://luko.eu/join/luko@email.com",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 4,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": Object {
+                  "compatConfig": Object {
+                    "MODE": 3,
+                    "RENDER_FUNCTION": false,
+                  },
+                  "name": "ShareLink",
+                  "props": Object {
+                    "link": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": Object {
+                  "a": null,
+                  "accessCache": Object {
+                    "@@__IMMUTABLE_ITERABLE__@@": 0,
+                    "@@__IMMUTABLE_RECORD__@@": 0,
+                    "_isMockFunction": 0,
+                    "constructor": 0,
+                    "isVueInstance": 0,
+                    "toJSON": 0,
+                    Symbol(Symbol.toStringTag): 0,
+                  },
+                  "appContext": Object {
+                    "app": [Circular],
+                    "components": Object {
+                      "transition": Object {
+                        "name": "transition",
+                      },
+                      "transition-group": Object {
+                        "name": "transition-group",
+                      },
+                    },
+                    "config": Object {
+                      "compilerOptions": Object {},
+                      "errorHandler": undefined,
+                      "globalProperties": Object {},
+                      "isNativeTag": [Function],
+                      "optionMergeStrategies": Object {},
+                      "performance": false,
+                      "warnHandler": undefined,
+                    },
+                    "directives": Object {},
+                    "emitsCache": WeakMap {},
+                    "mixins": Array [
+                      Object {
+                        "beforeCreate": [Function],
+                      },
+                    ],
+                    "optionsCache": WeakMap {},
+                    "propsCache": WeakMap {},
+                    "provides": Object {},
+                    "reload": [Function],
+                  },
+                  "asyncDep": null,
+                  "asyncResolved": false,
+                  "attrs": Object {
+                    "class": "get-free-insurance__email-invite",
+                  },
+                  "bc": null,
+                  "bm": null,
+                  "bu": null,
+                  "bum": null,
+                  "c": null,
+                  "components": null,
+                  "ctx": Object {},
+                  "da": null,
+                  "data": Object {},
+                  "directives": null,
+                  "ec": null,
+                  "effect": ReactiveEffect {
+                    "active": true,
+                    "allowRecurse": true,
+                    "deps": Array [
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                    ],
+                    "fn": [Function],
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "emit": [Function],
+                  "emitsOptions": null,
+                  "emitted": null,
+                  "exposeProxy": null,
+                  "exposed": null,
+                  "inheritAttrs": undefined,
+                  "isDeactivated": false,
+                  "isMounted": true,
+                  "isUnmounted": false,
+                  "m": null,
+                  "next": null,
+                  "parent": [Circular],
+                  "props": Object {},
+                  "propsDefaults": Object {},
+                  "propsOptions": Array [
+                    Object {},
+                    Array [],
+                  ],
+                  "provides": Object {},
+                  "proxy": Object {},
+                  "refs": Object {},
+                  "render": [Function],
+                  "renderCache": Array [],
+                  "root": [Circular],
+                  "rtc": null,
+                  "rtg": null,
+                  "scope": EffectScope {
+                    "active": true,
+                    "cleanups": Array [],
+                    "effects": Array [
+                      ReactiveEffect {
+                        "active": true,
+                        "allowRecurse": true,
+                        "deps": Array [
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                        ],
+                        "fn": [Function],
+                        "onTrack": undefined,
+                        "onTrigger": undefined,
+                        "scheduler": [Function],
+                      },
+                    ],
+                  },
+                  "setupContext": null,
+                  "setupState": Object {},
+                  "slots": Object {},
+                  "sp": null,
+                  "subTree": Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <email-invite-stub
+                      class="get-free-insurance__email-invite"
+                    />,
+                    "key": null,
+                    "patchFlag": 16,
+                    "props": Object {
+                      "class": "get-free-insurance__email-invite",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "email-invite-stub",
+                  },
+                  "suspense": null,
+                  "suspenseId": 0,
+                  "type": Object {
+                    "compatConfig": Object {
+                      "MODE": 3,
+                      "RENDER_FUNCTION": false,
+                    },
+                    "name": "EmailInvite",
+                    "props": Object {},
+                    "render": [Function],
+                  },
+                  "u": null,
+                  "uid": 3,
+                  "um": null,
+                  "update": [Function],
+                  "vnode": [Circular],
+                  "withProxy": null,
+                },
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <email-invite-stub
+                  class="get-free-insurance__email-invite"
+                />,
+                "key": null,
+                "patchFlag": 0,
+                "props": Object {
+                  "class": "get-free-insurance__email-invite",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 4,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": Object {
+                  "compatConfig": Object {
+                    "MODE": 3,
+                    "RENDER_FUNCTION": false,
+                  },
+                  "name": "EmailInvite",
+                  "props": Object {},
+                  "render": [Function],
+                },
+              },
+              Object {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": Object {
+                  "default": [Function],
+                },
+                "component": Object {
+                  "a": null,
+                  "accessCache": Object {
+                    "@@__IMMUTABLE_ITERABLE__@@": 0,
+                    "@@__IMMUTABLE_RECORD__@@": 0,
+                    "_isMockFunction": 0,
+                    "constructor": 0,
+                    "disabled": 3,
+                    "imageButton": 3,
+                    "isVueInstance": 0,
+                    "onClick": 3,
+                    "toJSON": 0,
+                    Symbol(Symbol.toStringTag): 0,
+                  },
+                  "appContext": Object {
+                    "app": [Circular],
+                    "components": Object {
+                      "transition": Object {
+                        "name": "transition",
+                      },
+                      "transition-group": Object {
+                        "name": "transition-group",
+                      },
+                    },
+                    "config": Object {
+                      "compilerOptions": Object {},
+                      "errorHandler": undefined,
+                      "globalProperties": Object {},
+                      "isNativeTag": [Function],
+                      "optionMergeStrategies": Object {},
+                      "performance": false,
+                      "warnHandler": undefined,
+                    },
+                    "directives": Object {},
+                    "emitsCache": WeakMap {},
+                    "mixins": Array [
+                      Object {
+                        "beforeCreate": [Function],
+                      },
+                    ],
+                    "optionsCache": WeakMap {},
+                    "propsCache": WeakMap {},
+                    "provides": Object {},
+                    "reload": [Function],
+                  },
+                  "asyncDep": null,
+                  "asyncResolved": false,
+                  "attrs": Object {},
+                  "bc": null,
+                  "bm": null,
+                  "bu": null,
+                  "bum": null,
+                  "c": null,
+                  "components": null,
+                  "ctx": Object {
+                    "disabled": false,
+                    "imageButton": false,
+                    "onClick": [Function],
+                  },
+                  "da": null,
+                  "data": Object {},
+                  "directives": null,
+                  "ec": null,
+                  "effect": ReactiveEffect {
+                    "active": true,
+                    "allowRecurse": true,
+                    "deps": Array [
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                      Set {
+                        [Circular],
+                      },
+                    ],
+                    "fn": [Function],
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "emit": [Function],
+                  "emitsOptions": null,
+                  "emitted": null,
+                  "exposeProxy": null,
+                  "exposed": null,
+                  "inheritAttrs": undefined,
+                  "isDeactivated": false,
+                  "isMounted": true,
+                  "isUnmounted": false,
+                  "m": null,
+                  "next": null,
+                  "parent": [Circular],
+                  "props": Object {
+                    "disabled": false,
+                    "imageButton": false,
+                    "onClick": [Function],
+                  },
+                  "propsDefaults": Object {},
+                  "propsOptions": Array [
+                    Object {
+                      "disabled": Object {
+                        "0": true,
+                        "1": true,
+                        "type": [Function],
+                      },
+                      "imageButton": Object {
+                        "0": true,
+                        "1": true,
+                        "type": [Function],
+                      },
+                      "onClick": Object {
+                        "0": false,
+                        "1": true,
+                        "type": [Function],
+                      },
+                    },
+                    Array [
+                      "imageButton",
+                      "disabled",
+                    ],
+                  ],
+                  "provides": Object {},
+                  "proxy": Object {
+                    "disabled": false,
+                    "imageButton": false,
+                    "onClick": [Function],
+                  },
+                  "refs": Object {},
+                  "render": [Function],
+                  "renderCache": Array [],
+                  "root": [Circular],
+                  "rtc": null,
+                  "rtg": null,
+                  "scope": EffectScope {
+                    "active": true,
+                    "cleanups": Array [],
+                    "effects": Array [
+                      ReactiveEffect {
+                        "active": true,
+                        "allowRecurse": true,
+                        "deps": Array [
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                          Set {
+                            [Circular],
+                          },
+                        ],
+                        "fn": [Function],
+                        "onTrack": undefined,
+                        "onTrigger": undefined,
+                        "scheduler": [Function],
+                      },
+                    ],
+                  },
+                  "setupContext": null,
+                  "setupState": Object {},
+                  "slots": Object {
+                    "default": [Function],
+                  },
+                  "sp": null,
+                  "subTree": Object {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <button-stub
+                      disabled="false"
+                      imagebutton="false"
+                    />,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": Object {
+                      "disabled": false,
+                      "imageButton": false,
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "transition": null,
+                    "type": "button-stub",
+                  },
+                  "suspense": null,
+                  "suspenseId": 0,
+                  "type": Object {
+                    "compatConfig": Object {
+                      "MODE": 3,
+                      "RENDER_FUNCTION": false,
+                    },
+                    "name": "Button",
+                    "props": Object {
+                      "disabled": [Function],
+                      "imageButton": [Function],
+                      "onClick": [Function],
+                    },
+                    "render": [Function],
+                  },
+                  "u": null,
+                  "uid": 4,
+                  "um": null,
+                  "update": [Function],
+                  "vnode": [Circular],
+                  "withProxy": null,
+                },
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": Array [
+                  "onClick",
+                ],
+                "el": <button-stub
+                  disabled="false"
+                  imagebutton="false"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": Object {
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 36,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "transition": null,
+                "type": Object {
+                  "compatConfig": Object {
+                    "MODE": 3,
+                    "RENDER_FUNCTION": false,
+                  },
+                  "name": "Button",
+                  "props": Object {
+                    "disabled": [Function],
+                    "imageButton": [Function],
+                    "onClick": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+            ],
+            "dynamicProps": null,
+            "el": <div
+              class="get-free-insurance"
+            >
+              <h1>
+                Get free insurance
+              </h1>
+              <p>
+                 Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. 
+              </p>
+              <share-link-stub
+                class="get-free-insurance__share-link"
+                link="https://luko.eu/join/luko@email.com"
+              />
+              <h2
+                class="get-free-insurance__send-invites"
+              >
+                 Send invites to friends and family 
+              </h2>
+              <p>
+                 We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. 
+              </p>
+              <email-invite-stub
+                class="get-free-insurance__email-invite"
+              />
+              <div
+                class="get-free-insurance__bottom-banner"
+              >
+                <div
+                  class="get-free-insurance__bottom-banner__content"
+                >
+                  <h3>
+                    Luko also protects your home
+                  </h3>
+                  <p>
+                     Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+                  </p>
+                  <div
+                    class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+                  >
+                    <button-stub
+                      disabled="false"
+                      imagebutton="false"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="get-free-insurance__bottom-banner__gift-image"
+                >
+                  <img />
+                </div>
+              </div>
+            </div>,
+            "key": null,
+            "patchFlag": 0,
+            "props": Object {
+              "class": "get-free-insurance",
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "transition": null,
+            "type": "div",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": Object {
+            "components": Object {
+              "Button": Object {
+                "computed": Object {},
+                "extends": Object {},
+                "methods": Object {
+                  "handleOnClick": [Function],
+                },
+                "props": Object {
+                  "disabled": [Function],
+                  "imageButton": [Function],
+                  "onClick": [Function],
+                },
+                "render": [Function],
+                "setup": [Function],
+              },
+              "EmailInvite": Object {
+                "components": Object {
+                  "Button": Object {
+                    "computed": Object {},
+                    "extends": Object {},
+                    "methods": Object {
+                      "handleOnClick": [Function],
+                    },
+                    "props": Object {
+                      "disabled": [Function],
+                      "imageButton": [Function],
+                      "onClick": [Function],
+                    },
+                    "render": [Function],
+                    "setup": [Function],
+                  },
+                  "TextArea": Object {
+                    "computed": Object {},
+                    "extends": Object {},
+                    "methods": Object {},
+                    "props": Object {
+                      "onChange": [Function],
+                      "placeholder": [Function],
+                    },
+                    "render": [Function],
+                    "setup": [Function],
+                    "watch": Object {
+                      "value": [Function],
+                    },
+                  },
+                },
+                "computed": Object {},
+                "extends": Object {},
+                "methods": Object {
+                  "handleEmailListOnChange": [Function],
+                  "handleSendInvitesOnClick": [Function],
+                },
+                "props": Object {},
+                "render": [Function],
+                "setup": [Function],
+              },
+              "ShareLink": Object {
+                "components": Object {
+                  "Button": Object {
+                    "computed": Object {},
+                    "extends": Object {},
+                    "methods": Object {
+                      "handleOnClick": [Function],
+                    },
+                    "props": Object {
+                      "disabled": [Function],
+                      "imageButton": [Function],
+                      "onClick": [Function],
+                    },
+                    "render": [Function],
+                    "setup": [Function],
+                  },
+                },
+                "computed": Object {},
+                "extends": Object {},
+                "methods": Object {
+                  "handleCopyInviteLinkClick": [Function],
+                },
+                "props": Object {
+                  "link": [Function],
+                },
+                "render": [Function],
+                "setup": [Function],
+              },
+            },
+            "computed": Object {},
+            "extends": Object {},
+            "methods": Object {
+              "handleBottomBannerActionOnClick": [Function],
+            },
+            "props": Object {},
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 1,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="get-free-insurance"
+        >
+          <h1>
+            Get free insurance
+          </h1>
+          <p>
+             Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. 
+          </p>
+          <share-link-stub
+            class="get-free-insurance__share-link"
+            link="https://luko.eu/join/luko@email.com"
+          />
+          <h2
+            class="get-free-insurance__send-invites"
+          >
+             Send invites to friends and family 
+          </h2>
+          <p>
+             We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. 
+          </p>
+          <email-invite-stub
+            class="get-free-insurance__email-invite"
+          />
+          <div
+            class="get-free-insurance__bottom-banner"
+          >
+            <div
+              class="get-free-insurance__bottom-banner__content"
+            >
+              <h3>
+                Luko also protects your home
+              </h3>
+              <p>
+                 Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+              </p>
+              <div
+                class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+              >
+                <button-stub
+                  disabled="false"
+                  imagebutton="false"
+                />
+              </div>
+            </div>
+            <div
+              class="get-free-insurance__bottom-banner__gift-image"
+            >
+              <img />
+            </div>
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": Object {
+          "ref": "VTU_COMPONENT",
+        },
+        "ref": Object {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": Object {
+          "components": Object {
+            "Button": Object {
+              "computed": Object {},
+              "extends": Object {},
+              "methods": Object {
+                "handleOnClick": [Function],
+              },
+              "props": Object {
+                "disabled": [Function],
+                "imageButton": [Function],
+                "onClick": [Function],
+              },
+              "render": [Function],
+              "setup": [Function],
+            },
+            "EmailInvite": Object {
+              "components": Object {
+                "Button": Object {
+                  "computed": Object {},
+                  "extends": Object {},
+                  "methods": Object {
+                    "handleOnClick": [Function],
+                  },
+                  "props": Object {
+                    "disabled": [Function],
+                    "imageButton": [Function],
+                    "onClick": [Function],
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                },
+                "TextArea": Object {
+                  "computed": Object {},
+                  "extends": Object {},
+                  "methods": Object {},
+                  "props": Object {
+                    "onChange": [Function],
+                    "placeholder": [Function],
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                  "watch": Object {
+                    "value": [Function],
+                  },
+                },
+              },
+              "computed": Object {},
+              "extends": Object {},
+              "methods": Object {
+                "handleEmailListOnChange": [Function],
+                "handleSendInvitesOnClick": [Function],
+              },
+              "props": Object {},
+              "render": [Function],
+              "setup": [Function],
+            },
+            "ShareLink": Object {
+              "components": Object {
+                "Button": Object {
+                  "computed": Object {},
+                  "extends": Object {},
+                  "methods": Object {
+                    "handleOnClick": [Function],
+                  },
+                  "props": Object {
+                    "disabled": [Function],
+                    "imageButton": [Function],
+                    "onClick": [Function],
+                  },
+                  "render": [Function],
+                  "setup": [Function],
+                },
+              },
+              "computed": Object {},
+              "extends": Object {},
+              "methods": Object {
+                "handleCopyInviteLinkClick": [Function],
+              },
+              "props": Object {
+                "link": [Function],
+              },
+              "render": [Function],
+              "setup": [Function],
+            },
+          },
+          "computed": Object {},
+          "extends": Object {},
+          "methods": Object {
+            "handleBottomBannerActionOnClick": [Function],
+          },
+          "props": Object {},
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": Object {
+        "name": "VTU_ROOT",
+        "render": [Function],
+      },
+      "u": null,
+      "uid": 0,
+      "um": null,
+      "update": [Function],
+      "vnode": Object {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": Object {
+          "app": [Circular],
+          "components": Object {
+            "transition": Object {
+              "name": "transition",
+            },
+            "transition-group": Object {
+              "name": "transition-group",
+            },
+          },
+          "config": Object {
+            "compilerOptions": Object {},
+            "errorHandler": undefined,
+            "globalProperties": Object {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": Object {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": Object {},
+          "emitsCache": WeakMap {},
+          "mixins": Array [
+            Object {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": Object {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="get-free-insurance"
+        >
+          <h1>
+            Get free insurance
+          </h1>
+          <p>
+             Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. 
+          </p>
+          <share-link-stub
+            class="get-free-insurance__share-link"
+            link="https://luko.eu/join/luko@email.com"
+          />
+          <h2
+            class="get-free-insurance__send-invites"
+          >
+             Send invites to friends and family 
+          </h2>
+          <p>
+             We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. 
+          </p>
+          <email-invite-stub
+            class="get-free-insurance__email-invite"
+          />
+          <div
+            class="get-free-insurance__bottom-banner"
+          >
+            <div
+              class="get-free-insurance__bottom-banner__content"
+            >
+              <h3>
+                Luko also protects your home
+              </h3>
+              <p>
+                 Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+              </p>
+              <div
+                class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+              >
+                <button-stub
+                  disabled="false"
+                  imagebutton="false"
+                />
+              </div>
+            </div>
+            <div
+              class="get-free-insurance__bottom-banner__gift-image"
+            >
+              <img />
+            </div>
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "transition": null,
+        "type": Object {
+          "name": "VTU_ROOT",
+          "render": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": Object {
+      "compilerOptions": Object {},
+      "errorHandler": undefined,
+      "globalProperties": Object {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": Object {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.2.29",
+  },
+  "__setProps": [Function],
+  "componentVM": Object {
+    "handleBottomBannerActionOnClick": [Function],
+    "hasOwnProperty": [Function],
+    "shareLink": "https://luko.eu/join/luko@email.com",
+  },
+  "isDisabled": [Function],
+  "rootVM": Object {},
+  "wrapperElement": <div
+    class="get-free-insurance"
+  >
+    <h1>
+      Get free insurance
+    </h1>
+    <p>
+       Invite friends and family to get better insurance, you will both get a nice discount. Referees without an invite link will have to enter your email address on the payment page. 
+    </p>
+    <share-link-stub
+      class="get-free-insurance__share-link"
+      link="https://luko.eu/join/luko@email.com"
+    />
+    <h2
+      class="get-free-insurance__send-invites"
+    >
+       Send invites to friends and family 
+    </h2>
+    <p>
+       We won’t sell, share or use these addresses other than to invite them, we’d hate that too. To invite multiple at once, input one address per line. 
+    </p>
+    <email-invite-stub
+      class="get-free-insurance__email-invite"
+    />
+    <div
+      class="get-free-insurance__bottom-banner"
+    >
+      <div
+        class="get-free-insurance__bottom-banner__content"
+      >
+        <h3>
+          Luko also protects your home
+        </h3>
+        <p>
+           Non-occupying homeowners and PEV riders get 1 year of free PEV or non-occupying homeowner insurance when insuring their main home with Luko! 
+        </p>
+        <div
+          class="get-free-insurance__bottom-banner__content__get-my-home-insured-action"
+        >
+          <button-stub
+            disabled="false"
+            imagebutton="false"
+          />
+        </div>
+      </div>
+      <div
+        class="get-free-insurance__bottom-banner__gift-image"
+      >
+        <img />
+      </div>
+    </div>
+  </div>,
+}
+`;

@@ -22,15 +22,12 @@ import Button from "../button/component.vue";
     Button,
   },
   props: {
-    isMenuOpen: Boolean,
     onMenuClick: Function,
   },
 })
 export default class Topbar extends Vue {
-  isMenuOpen?: boolean;
-
   handleHamburgerOnClick(): void {
-    this.$emit("onMenuClick", !this.isMenuOpen);
+    this.$emit("onMenuClick");
   }
 }
 </script>

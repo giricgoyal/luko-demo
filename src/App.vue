@@ -1,5 +1,5 @@
 <template>
-  <Topbar :isMenuOpen="isMenuOpen" v-on:onMenuClick="handleMenuOnClick" />
+  <Topbar v-on:onMenuClick="handleMenuOnClick" />
   <Page>
     <Sidebar :isMenuOpen="isMenuOpen" />
     <Content>
@@ -26,8 +26,8 @@ import GetFreeInsurance from "./pages/get-free-insurance/component.vue";
 export default class App extends Vue {
   isMenuOpen = false;
 
-  handleMenuOnClick(isMenuOpen: boolean): void {
-    this.isMenuOpen = isMenuOpen;
+  handleMenuOnClick(): void {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }
 </script>
