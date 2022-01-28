@@ -42,11 +42,19 @@ variables:
   REPO_NAME: "luko-demo"
 
 stages:
-  - build
   - test
+  - build
   - deploy
   - cleanup
 
+test_job:
+  inherit:
+      default: [image]
+  script:
+    - yarn
+    - yarn test:unit
+  stage: test
+  allow_failure: false
 
 build_job:
   inherit:
