@@ -1,0 +1,49 @@
+.share-link {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    button {
+        height: 48px;
+    }
+
+    &__link-label {
+        border: 2px solid $color-grey-100;
+        background: $color-pure-white;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 12px 16px;
+        color: $color-bluko-500;
+        flex: 1;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__copied {
+            color: $color-green;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 8px;
+
+        &__copy-invite-link-button {
+            cursor: copy;
+            width: fit-content;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .share-link {
+        flex-direction: column;
+
+        &__buttons {
+            &__copy-invite-link-button {
+                margin-left: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.get-free-insurance {
+    p {
+        @extend .text-secondary;
+        margin-top: 8px;
+    }
+
+    &__share-link {
+        margin-top: 32px;
+    }
+
+    &__send-invites {
+        margin-top: 64px;
+    }
+
+    &__email-invite {
+        margin-top: 24px;
+    }
+
+    &__bottom-banner {
+        @extend .text-inverted-primary;
+        background-color: $color-bluko-500;
+        border-radius: 8px;
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 104px;
+        flex-wrap: wrap-reverse;
+
+        p {
+            @extend .text-inverted-secondary;
+        }
+
+        &__content {
+            padding: 88px 40px;
+            max-width: 352px;
+            width: 100%;
+
+            &__get-my-home-insured-action {
+                margin-top: 24px;
+
+                button {
+                    background-color: $color-bluko-400;
+                    color: $color-pure-white;
+                }
+            }
+        }
+
+        &__gift-image {
+            padding: 52px 0;
+            flex: 1;
+            text-align: right;
+        }
+    }
+}

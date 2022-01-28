@@ -1,0 +1,62 @@
+.page {
+    padding-top: 40px;
+    flex: 1;
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    &__sidebar {
+        width: 256px;
+        margin-right: 80px;
+
+        &__items {
+            padding: 25px;
+
+            &__item {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                cursor: pointer;
+
+                &:not(:last-child) {
+                    margin-bottom: 24px;
+                }
+                
+                img {
+                    width: 22px;
+                    margin-right: 17px;
+                }
+            }
+        }
+
+        &__file-a-claim-action {
+            background-color: $color-terracota-500;
+            color: $color-pure-white;
+            display: flex;
+            flex-direction: row;
+            margin-top: 52px;
+
+            &__icon {
+                margin-left: 4px;
+                height: 22px;
+                width: 16px;
+                margin-right: 20px;
+            }
+        }
+    }
+
+    &__content {
+        flex: 1;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .page {
+        &__sidebar {
+            display: none;
+        }
+    }
+}

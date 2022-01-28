@@ -1,0 +1,18 @@
+.button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: $color-bluko-500;
+    color: $color-pure-white;
+
+    &--no-padding {
+        padding: 0;
+    }
+
+    &--disabled {
+        background-color: $color-grey-100;
+        color: $color-grey-300;
+        cursor: not-allowed;
+    }
+}
