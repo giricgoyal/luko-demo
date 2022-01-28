@@ -51,3 +51,19 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .get-free-insurance {
+        &__bottom-banner {
+            &__content {
+                padding-top: 0px;
+            }
+
+            &__gift-image {
+                img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
