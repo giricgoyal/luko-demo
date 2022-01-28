@@ -1,12 +1,6 @@
 import { shallowMount } from "@vue/test-utils";
 import ShareLink from "@/components/share-link/component.vue";
 
-Object.assign(navigator, {
-  clipboard: {
-    writeText: jest.fn().mockImplementation(() => Promise.resolve()),
-  },
-});
-
 describe("ShareLink", () => {
   let wrapper: any;
   beforeEach(() => {
@@ -23,6 +17,11 @@ describe("ShareLink", () => {
 
   describe("When copy button is clicked", () => {
     beforeEach(() => {
+      Object.assign(navigator, {
+        clipboard: {
+          writeText: jest.fn().mockImplementation(() => Promise.resolve()),
+        },
+      });
       jest.spyOn(navigator.clipboard, "writeText");
       jest.useFakeTimers();
       wrapper

@@ -1,7 +1,7 @@
 <template>
   <div class="share-link">
     <div class="share-link__link-label">
-      {{ link }}
+      <span ref="link">{{ link }}</span>
       <div v-if="linkCopied" class="share-link__link-label__copied">
         Copied <i class="fas fa-check" />
       </div>
@@ -29,6 +29,7 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import Button from "../button/component.vue";
+import { fallbackCopyToClipboard } from "./utils";
 
 @Options({
   components: {
@@ -44,7 +45,12 @@ export default class ShareLink extends Vue {
   timer: number | null = null;
 
   async handleCopyInviteLinkClick(): Promise<void> {
-    await navigator.clipboard.writeText(this.link);
+    if (!navigator.clipboard) {
+      fallbackCopyToClipboard(this.$refs.link);
+    } else {
+      await navigator.clipboard.writeText(this.link);
+    }
+
     this.linkCopied = true;
     if (this.timer) {
       clearTimeout(this.timer);
