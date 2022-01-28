@@ -76,7 +76,7 @@ deploy_prod_job:
     - scp -r -P $SSH_PORT dist/. $SSH_HOST:$PROD_DOMAIN_PATH
   stage: deploy
   only:
-    - master@giricgoyal/luko-demo
+    - master@luko-demo
   environment:
     name: production
   allow_failure: false
