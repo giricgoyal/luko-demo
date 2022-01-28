@@ -16,7 +16,9 @@ VueWrapper {
         <div
           class="share-link__link-label"
         >
-          https://some-link.com 
+          <span>
+            https://some-link.com
+          </span>
           <!--v-if-->
         </div>
         <div
@@ -396,7 +398,11 @@ VueWrapper {
             "linkCopied": false,
             "timer": 4,
           },
-          "refs": Object {},
+          "refs": Object {
+            "link": <span>
+              https://some-link.com
+            </span>,
+          },
           "render": [Function],
           "renderCache": Array [],
           "root": [Circular],
@@ -456,18 +462,27 @@ VueWrapper {
                     "__v_skip": true,
                     "anchor": null,
                     "appContext": null,
-                    "children": "https://some-link.com ",
+                    "children": "https://some-link.com",
                     "component": null,
                     "dirs": null,
                     "dynamicChildren": null,
                     "dynamicProps": null,
-                    "el": https://some-link.com ,
+                    "el": <span>
+                      https://some-link.com
+                    </span>,
                     "key": null,
-                    "patchFlag": 1,
-                    "props": null,
-                    "ref": null,
+                    "patchFlag": 513,
+                    "props": Object {
+                      "ref": "link",
+                    },
+                    "ref": Object {
+                      "f": false,
+                      "i": [Circular],
+                      "k": undefined,
+                      "r": "link",
+                    },
                     "scopeId": null,
-                    "shapeFlag": 8,
+                    "shapeFlag": 9,
                     "slotScopeIds": null,
                     "ssContent": null,
                     "ssFallback": null,
@@ -476,7 +491,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": Symbol(Text),
+                    "type": "span",
                   },
                   Object {
                     "__v_isVNode": true,
@@ -1653,18 +1668,27 @@ VueWrapper {
                 "__v_skip": true,
                 "anchor": null,
                 "appContext": null,
-                "children": "https://some-link.com ",
+                "children": "https://some-link.com",
                 "component": null,
                 "dirs": null,
                 "dynamicChildren": null,
                 "dynamicProps": null,
-                "el": https://some-link.com ,
+                "el": <span>
+                  https://some-link.com
+                </span>,
                 "key": null,
-                "patchFlag": 1,
-                "props": null,
-                "ref": null,
+                "patchFlag": 513,
+                "props": Object {
+                  "ref": "link",
+                },
+                "ref": Object {
+                  "f": false,
+                  "i": [Circular],
+                  "k": undefined,
+                  "r": "link",
+                },
                 "scopeId": null,
-                "shapeFlag": 8,
+                "shapeFlag": 9,
                 "slotScopeIds": null,
                 "ssContent": null,
                 "ssFallback": null,
@@ -1673,7 +1697,7 @@ VueWrapper {
                 "target": null,
                 "targetAnchor": null,
                 "transition": null,
-                "type": Symbol(Text),
+                "type": "span",
               },
               Object {
                 "__v_isVNode": true,
@@ -2839,7 +2863,9 @@ VueWrapper {
               <div
                 class="share-link__link-label"
               >
-                https://some-link.com 
+                <span>
+                  https://some-link.com
+                </span>
                 <!--v-if-->
               </div>
               <div
@@ -2928,7 +2954,9 @@ VueWrapper {
           <div
             class="share-link__link-label"
           >
-            https://some-link.com 
+            <span>
+              https://some-link.com
+            </span>
             <!--v-if-->
           </div>
           <div
@@ -3060,7 +3088,9 @@ VueWrapper {
           <div
             class="share-link__link-label"
           >
-            https://some-link.com 
+            <span>
+              https://some-link.com
+            </span>
             <!--v-if-->
           </div>
           <div
@@ -3142,7 +3172,9 @@ VueWrapper {
     <div
       class="share-link__link-label"
     >
-      https://some-link.com 
+      <span>
+        https://some-link.com
+      </span>
       <!--v-if-->
     </div>
     <div
@@ -3186,7 +3218,9 @@ VueWrapper {
         <div
           class="share-link__link-label"
         >
-          https://some-link.com 
+          <span>
+            https://some-link.com
+          </span>
           <div
             class="share-link__link-label__copied"
           >
@@ -3573,7 +3607,11 @@ VueWrapper {
             "linkCopied": true,
             "timer": 3,
           },
-          "refs": Object {},
+          "refs": Object {
+            "link": <span>
+              https://some-link.com
+            </span>,
+          },
           "render": [Function],
           "renderCache": Array [],
           "root": [Circular],
@@ -3633,18 +3671,27 @@ VueWrapper {
                     "__v_skip": true,
                     "anchor": null,
                     "appContext": null,
-                    "children": "https://some-link.com ",
+                    "children": "https://some-link.com",
                     "component": null,
                     "dirs": null,
                     "dynamicChildren": null,
                     "dynamicProps": null,
-                    "el": https://some-link.com ,
+                    "el": <span>
+                      https://some-link.com
+                    </span>,
                     "key": null,
-                    "patchFlag": 1,
-                    "props": null,
-                    "ref": null,
+                    "patchFlag": 513,
+                    "props": Object {
+                      "ref": "link",
+                    },
+                    "ref": Object {
+                      "f": false,
+                      "i": [Circular],
+                      "k": undefined,
+                      "r": "link",
+                    },
                     "scopeId": null,
-                    "shapeFlag": 8,
+                    "shapeFlag": 9,
                     "slotScopeIds": null,
                     "ssContent": null,
                     "ssFallback": null,
@@ -3653,7 +3700,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": Symbol(Text),
+                    "type": "span",
                   },
                   Object {
                     "__v_isVNode": true,
@@ -4899,18 +4946,27 @@ VueWrapper {
                 "__v_skip": true,
                 "anchor": null,
                 "appContext": null,
-                "children": "https://some-link.com ",
+                "children": "https://some-link.com",
                 "component": null,
                 "dirs": null,
                 "dynamicChildren": null,
                 "dynamicProps": null,
-                "el": https://some-link.com ,
+                "el": <span>
+                  https://some-link.com
+                </span>,
                 "key": null,
-                "patchFlag": 1,
-                "props": null,
-                "ref": null,
+                "patchFlag": 513,
+                "props": Object {
+                  "ref": "link",
+                },
+                "ref": Object {
+                  "f": false,
+                  "i": [Circular],
+                  "k": undefined,
+                  "r": "link",
+                },
                 "scopeId": null,
-                "shapeFlag": 8,
+                "shapeFlag": 9,
                 "slotScopeIds": null,
                 "ssContent": null,
                 "ssFallback": null,
@@ -4919,7 +4975,7 @@ VueWrapper {
                 "target": null,
                 "targetAnchor": null,
                 "transition": null,
-                "type": Symbol(Text),
+                "type": "span",
               },
               Object {
                 "__v_isVNode": true,
@@ -6154,7 +6210,9 @@ VueWrapper {
               <div
                 class="share-link__link-label"
               >
-                https://some-link.com 
+                <span>
+                  https://some-link.com
+                </span>
                 <div
                   class="share-link__link-label__copied"
                 >
@@ -6250,7 +6308,9 @@ VueWrapper {
           <div
             class="share-link__link-label"
           >
-            https://some-link.com 
+            <span>
+              https://some-link.com
+            </span>
             <div
               class="share-link__link-label__copied"
             >
@@ -6389,7 +6449,9 @@ VueWrapper {
           <div
             class="share-link__link-label"
           >
-            https://some-link.com 
+            <span>
+              https://some-link.com
+            </span>
             <div
               class="share-link__link-label__copied"
             >
@@ -6478,7 +6540,9 @@ VueWrapper {
     <div
       class="share-link__link-label"
     >
-      https://some-link.com 
+      <span>
+        https://some-link.com
+      </span>
       <div
         class="share-link__link-label__copied"
       >
@@ -6543,7 +6607,9 @@ VueWrapper {
         <div
           class="share-link__link-label"
         >
-          https://some-link.com 
+          <span>
+            https://some-link.com
+          </span>
           <!--v-if-->
         </div>
         <div
@@ -6923,7 +6989,11 @@ VueWrapper {
             "linkCopied": false,
             "timer": null,
           },
-          "refs": Object {},
+          "refs": Object {
+            "link": <span>
+              https://some-link.com
+            </span>,
+          },
           "render": [Function],
           "renderCache": Array [],
           "root": [Circular],
@@ -6983,18 +7053,27 @@ VueWrapper {
                     "__v_skip": true,
                     "anchor": null,
                     "appContext": null,
-                    "children": "https://some-link.com ",
+                    "children": "https://some-link.com",
                     "component": null,
                     "dirs": null,
                     "dynamicChildren": null,
                     "dynamicProps": null,
-                    "el": https://some-link.com ,
+                    "el": <span>
+                      https://some-link.com
+                    </span>,
                     "key": null,
-                    "patchFlag": 1,
-                    "props": null,
-                    "ref": null,
+                    "patchFlag": 513,
+                    "props": Object {
+                      "ref": "link",
+                    },
+                    "ref": Object {
+                      "f": false,
+                      "i": [Circular],
+                      "k": undefined,
+                      "r": "link",
+                    },
                     "scopeId": null,
-                    "shapeFlag": 8,
+                    "shapeFlag": 9,
                     "slotScopeIds": null,
                     "ssContent": null,
                     "ssFallback": null,
@@ -7003,7 +7082,7 @@ VueWrapper {
                     "target": null,
                     "targetAnchor": null,
                     "transition": null,
-                    "type": Symbol(Text),
+                    "type": "span",
                   },
                   Object {
                     "__v_isVNode": true,
@@ -7040,7 +7119,9 @@ VueWrapper {
                 "el": <div
                   class="share-link__link-label"
                 >
-                  https://some-link.com 
+                  <span>
+                    https://some-link.com
+                  </span>
                   <!--v-if-->
                 </div>,
                 "key": null,
@@ -8201,18 +8282,27 @@ VueWrapper {
                 "__v_skip": true,
                 "anchor": null,
                 "appContext": null,
-                "children": "https://some-link.com ",
+                "children": "https://some-link.com",
                 "component": null,
                 "dirs": null,
                 "dynamicChildren": null,
                 "dynamicProps": null,
-                "el": https://some-link.com ,
+                "el": <span>
+                  https://some-link.com
+                </span>,
                 "key": null,
-                "patchFlag": 1,
-                "props": null,
-                "ref": null,
+                "patchFlag": 513,
+                "props": Object {
+                  "ref": "link",
+                },
+                "ref": Object {
+                  "f": false,
+                  "i": [Circular],
+                  "k": undefined,
+                  "r": "link",
+                },
                 "scopeId": null,
-                "shapeFlag": 8,
+                "shapeFlag": 9,
                 "slotScopeIds": null,
                 "ssContent": null,
                 "ssFallback": null,
@@ -8221,7 +8311,7 @@ VueWrapper {
                 "target": null,
                 "targetAnchor": null,
                 "transition": null,
-                "type": Symbol(Text),
+                "type": "span",
               },
               Object {
                 "__v_isVNode": true,
@@ -9383,7 +9473,9 @@ VueWrapper {
               <div
                 class="share-link__link-label"
               >
-                https://some-link.com 
+                <span>
+                  https://some-link.com
+                </span>
                 <!--v-if-->
               </div>
               <div
@@ -9472,7 +9564,9 @@ VueWrapper {
           <div
             class="share-link__link-label"
           >
-            https://some-link.com 
+            <span>
+              https://some-link.com
+            </span>
             <!--v-if-->
           </div>
           <div
@@ -9604,7 +9698,9 @@ VueWrapper {
           <div
             class="share-link__link-label"
           >
-            https://some-link.com 
+            <span>
+              https://some-link.com
+            </span>
             <!--v-if-->
           </div>
           <div
@@ -9686,7 +9782,9 @@ VueWrapper {
     <div
       class="share-link__link-label"
     >
-      https://some-link.com 
+      <span>
+        https://some-link.com
+      </span>
       <!--v-if-->
     </div>
     <div
