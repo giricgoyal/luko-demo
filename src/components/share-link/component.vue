@@ -43,8 +43,8 @@ export default class ShareLink extends Vue {
   linkCopied = false;
   timer: number | null = null;
 
-  handleCopyInviteLinkClick(): void {
-    navigator.clipboard.writeText(this.link);
+  async handleCopyInviteLinkClick(): Promise<void> {
+    await navigator.clipboard.writeText(this.link);
     this.linkCopied = true;
     if (this.timer) {
       clearTimeout(this.timer);
