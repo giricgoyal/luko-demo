@@ -1,2 +1,3 @@
-export const APILAYERNET_ENDPOINT = "http://www.apilayer.net/api";
-export const APILAYERNET_ACCESS_KEY = "35c2fcae6f70135fc3918e1ff2adcf67";
+export const APILAYERNET_ENDPOINT = process.env.VUE_APP_APILAYERNET_ENDPOINT;
+export const APILAYERNET_ACCESS_KEY =
+  process.env.VUE_APP_APILAYERNET_ACCESS_KEY;
