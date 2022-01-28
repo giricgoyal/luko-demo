@@ -1,7 +1,7 @@
 <template>
-  <Topbar />
+  <Topbar :isMenuOpen="isMenuOpen" v-on:onMenuClick="handleMenuOnClick" />
   <Page>
-    <Sidebar />
+    <Sidebar :isMenuOpen="isMenuOpen" />
     <Content>
       <GetFreeInsurance />
     </Content>
@@ -23,7 +23,13 @@ import GetFreeInsurance from "./pages/get-free-insurance/component.vue";
     GetFreeInsurance,
   },
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  isMenuOpen = false;
+
+  handleMenuOnClick(isMenuOpen: boolean): void {
+    this.isMenuOpen = isMenuOpen;
+  }
+}
 </script>
 
 <style lang="scss" src="./styles/styles.scss"></style>

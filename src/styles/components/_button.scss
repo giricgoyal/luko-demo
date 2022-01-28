@@ -6,8 +6,9 @@
     background-color: $color-bluko-500;
     color: $color-pure-white;
 
-    &--no-padding {
+    &--image-button {
         padding: 0;
+        background: none;
     }
 
     &--disabled {

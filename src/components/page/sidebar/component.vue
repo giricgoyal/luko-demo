@@ -1,5 +1,10 @@
 <template>
-  <div class="page__sidebar">
+  <div
+    class="page__sidebar"
+    v-bind:class="{
+      'page__sidebar--open': isMenuOpen,
+    }"
+  >
     <div class="page__sidebar__items">
       <div class="page__sidebar__items__item">
         <img src="../../../assets/icons/house.png" />Welcome
@@ -26,7 +31,11 @@ import Button from "../../button/component.vue";
   components: {
     Button,
   },
-  props: {},
+  props: {
+    isMenuOpen: Boolean,
+  },
 })
-export default class Sidebar extends Vue {}
+export default class Sidebar extends Vue {
+  isMenuOpen?: boolean;
+}
 </script>

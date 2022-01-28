@@ -33,7 +33,7 @@ export const validateEmails = async (
     const email = emailList[counter];
     if (!validEmails.includes(email)) {
       if (!validateWithRegex(email)) {
-        errors.push(`${email} is invalid /w regex.`);
+        errors.push(`${email} is invalid.`);
       } else {
         const error = await validateWithApi(email);
 
