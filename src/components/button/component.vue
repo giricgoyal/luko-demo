@@ -2,7 +2,7 @@
   <button
     class="button"
     v-bind:class="{
-      'button--no-padding': imageButton,
+      'button--image-button': imageButton,
       'button--disabled': disabled,
     }"
     v-on:click="handleOnClick"

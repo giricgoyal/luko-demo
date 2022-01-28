@@ -3,7 +3,7 @@
     flex: 1;
     max-width: 1080px;
     width: 100%;
-    margin: auto;
+    margin: 72px auto 0;
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -11,6 +11,7 @@
     &__sidebar {
         width: 256px;
         margin-right: 80px;
+        background-color: $background-color;
 
         &__items {
             padding: 25px;
@@ -55,8 +56,26 @@
 
 @media only screen and (max-width: 1360px) {
     .page {
-        &__sidebar {
-            display: none;
+        &__sidebar{
+            &:not(&--open) {
+                display: none;
+            }
+
+            &--open {
+                display: initial;
+                position: fixed;
+                background-color: #f4f3ef;
+                height: 100vh;
+                box-shadow: 5px 14px 10px #ddd;
+                top: 72px;
+                left: 0px;
+                transition: 2;
+            }
+
+            &__file-a-claim-action {
+                margin-top: 0px;
+                margin-left: 25px;
+            }
         }
     }
 }

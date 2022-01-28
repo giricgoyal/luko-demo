@@ -2,7 +2,9 @@
   <div class="share-link">
     <div class="share-link__link-label">
       {{ link }}
-      <div v-if="linkCopied" class="share-link__link-label__copied">Copied</div>
+      <div v-if="linkCopied" class="share-link__link-label__copied">
+        Copied <i class="fas fa-check" />
+      </div>
     </div>
     <div class="share-link__buttons">
       <Button

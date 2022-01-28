@@ -1,9 +1,29 @@
 .topbar {
-    display: flex;
-    max-width: 1348px;
-    margin: auto;
+    position: fixed;
     width: 100%;
-    padding: 24px 0;
+    background-color: $background-color;
+
+    &__container {
+        padding: 24px 0;
+        max-width: 1348px;
+        display: flex;
+        margin: auto;
+
+        &__hamburger {
+            margin-right: 16px;
+            color: $color-grey-1000;
+        }
+    }
+}
+
+@media only screen and (min-width: 1360px) {
+    .topbar {
+        &__container {
+            &__hamburger {
+                display: none;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1080px) and (max-width:1360px) {
