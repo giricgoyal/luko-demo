@@ -52,8 +52,8 @@ build_job:
   inherit:
     default: [image]
   script:
-    - make install
-    - make build
+    - yarn
+    - yarn build
   stage: build
   allow_failure: false
   artifacts:
@@ -65,7 +65,7 @@ cleanup_job:
     default: [image]
   stage: cleanup
   script:
-    - make clean
+    - rm -rf dist
   when: always
 
 
