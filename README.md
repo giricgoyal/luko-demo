@@ -1,6 +1,10 @@
 # luko-demo
 
 ## Project setup
+
+Create .env.local in project root.
+Add the env variables from .env file will appropriate values.
+
 ```
 yarn install
 ```
