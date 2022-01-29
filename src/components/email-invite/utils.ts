@@ -12,8 +12,14 @@ const validateWithRegex = (email: string): boolean => emailRegex.test(email);
 const validateWithApi = async (email: string): Promise<string | null> => {
   const { success, error, format_valid, mx_found, smtp_check, domain } =
     await validateEmail(email);
-  if ((!success && error) || !format_valid) {
+  if (
+    (!success && error?.type === "format_not_valid") ||
+    format_valid === false
+  ) {
     return `${email} is invalid`;
+  }
+  if (!success && error && error.type !== "format_not_valid") {
+    throw error;
   }
   if (!mx_found) {
     return `${email} is invalid. ${domain} Domain is not configured to receive emails.`;

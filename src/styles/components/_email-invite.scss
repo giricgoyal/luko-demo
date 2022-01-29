@@ -30,6 +30,10 @@
             align-items: center;
             font-feature-settings: 'liga' off;
             color: $color-grey-500;
+
+            &--error {
+                color: $color-terracota-500;
+            }
         }
     }
 
