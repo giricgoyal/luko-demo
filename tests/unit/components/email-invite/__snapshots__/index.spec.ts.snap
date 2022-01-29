@@ -155,6 +155,7 @@ jane.doe@lukognito.com"
           "inviteeList": Array [
             "cover@getluko.com",
           ],
+          "isApiError": false,
           "isButtonDisabled": false,
           "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -209,6 +210,7 @@ jane.doe@lukognito.com",
             "handleSendInvitesOnClick": 4,
             "hasOwnProperty": 4,
             "inviteeList": 1,
+            "isApiError": 1,
             "isButtonDisabled": 1,
             "isVueInstance": 0,
             "placeholder": 1,
@@ -292,6 +294,7 @@ jane.doe@lukognito.com",
             "inviteeList": Array [
               "cover@getluko.com",
             ],
+            "isApiError": false,
             "isButtonDisabled": false,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -319,6 +322,9 @@ jane.doe@lukognito.com",
                       [Circular],
                     },
                     [Circular],
+                    Set {
+                      [Circular],
+                    },
                     Set {
                       [Circular],
                     },
@@ -357,6 +363,43 @@ jane.doe@lukognito.com",
                     Set {
                       [Circular],
                     },
+                    Set {
+                      [Circular],
+                    },
+                  ],
+                  "fn": [Function],
+                  "onTrack": undefined,
+                  "onTrigger": undefined,
+                  "scheduler": [Function],
+                },
+              },
+            },
+            "isApiError": RefImpl {
+              "__v_isRef": true,
+              "__v_isShallow": false,
+              "_rawValue": false,
+              "_value": false,
+              "dep": Set {
+                ReactiveEffect {
+                  "active": true,
+                  "allowRecurse": true,
+                  "deps": Array [
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    [Circular],
+                    Set {
+                      [Circular],
+                    },
                   ],
                   "fn": [Function],
                   "onTrack": undefined,
@@ -379,6 +422,9 @@ jane.doe@lukognito.com",
                       [Circular],
                     },
                     [Circular],
+                    Set {
+                      [Circular],
+                    },
                     Set {
                       [Circular],
                     },
@@ -421,6 +467,9 @@ jane.doe@lukognito.com",
                     Set {
                       [Circular],
                     },
+                    Set {
+                      [Circular],
+                    },
                   ],
                   "fn": [Function],
                   "onTrack": undefined,
@@ -436,6 +485,9 @@ jane.doe@lukognito.com",
             "active": true,
             "allowRecurse": true,
             "deps": Array [
+              Set {
+                [Circular],
+              },
               Set {
                 [Circular],
               },
@@ -484,6 +536,7 @@ jane.doe@lukognito.com",
             "inviteeList": Array [
               "cover@getluko.com",
             ],
+            "isApiError": false,
             "isButtonDisabled": false,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -502,6 +555,9 @@ jane.doe@lukognito.com",
                 "active": true,
                 "allowRecurse": true,
                 "deps": Array [
+                  Set {
+                    [Circular],
+                  },
                   Set {
                     [Circular],
                   },
@@ -536,6 +592,7 @@ jane.doe@lukognito.com",
             "inviteeList": Array [
               "cover@getluko.com",
             ],
+            "isApiError": false,
             "isButtonDisabled": false,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -2024,6 +2081,7 @@ jane.doe@lukognito.com"
     "inviteeList": Array [
       "cover@getluko.com",
     ],
+    "isApiError": false,
     "isButtonDisabled": false,
     "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -2221,6 +2279,7 @@ jane.doe@lukognito.com"
           "inviteeList": Array [
             "_a@a",
           ],
+          "isApiError": false,
           "isButtonDisabled": true,
           "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -2275,6 +2334,7 @@ jane.doe@lukognito.com",
             "handleSendInvitesOnClick": 4,
             "hasOwnProperty": 4,
             "inviteeList": 1,
+            "isApiError": 1,
             "isButtonDisabled": 1,
             "isVueInstance": 0,
             "placeholder": 1,
@@ -2360,6 +2420,7 @@ jane.doe@lukognito.com",
             "inviteeList": Array [
               "_a@a",
             ],
+            "isApiError": false,
             "isButtonDisabled": true,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -2391,6 +2452,9 @@ jane.doe@lukognito.com",
                       [Circular],
                     },
                     [Circular],
+                    Set {
+                      [Circular],
+                    },
                     Set {
                       [Circular],
                     },
@@ -2441,6 +2505,49 @@ jane.doe@lukognito.com",
                     Set {
                       [Circular],
                     },
+                    Set {
+                      [Circular],
+                    },
+                  ],
+                  "fn": [Function],
+                  "onTrack": undefined,
+                  "onTrigger": undefined,
+                  "scheduler": [Function],
+                },
+              },
+            },
+            "isApiError": RefImpl {
+              "__v_isRef": true,
+              "__v_isShallow": false,
+              "_rawValue": false,
+              "_value": false,
+              "dep": Set {
+                ReactiveEffect {
+                  "active": true,
+                  "allowRecurse": true,
+                  "deps": Array [
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    [Circular],
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
                   ],
                   "fn": [Function],
                   "onTrack": undefined,
@@ -2463,6 +2570,9 @@ jane.doe@lukognito.com",
                       [Circular],
                     },
                     [Circular],
+                    Set {
+                      [Circular],
+                    },
                     Set {
                       [Circular],
                     },
@@ -2517,6 +2627,9 @@ jane.doe@lukognito.com",
                     Set {
                       [Circular],
                     },
+                    Set {
+                      [Circular],
+                    },
                   ],
                   "fn": [Function],
                   "onTrack": undefined,
@@ -2532,6 +2645,9 @@ jane.doe@lukognito.com",
             "active": true,
             "allowRecurse": true,
             "deps": Array [
+              Set {
+                [Circular],
+              },
               Set {
                 [Circular],
               },
@@ -2588,6 +2704,7 @@ jane.doe@lukognito.com",
             "inviteeList": Array [
               "_a@a",
             ],
+            "isApiError": false,
             "isButtonDisabled": true,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -2606,6 +2723,9 @@ jane.doe@lukognito.com",
                 "active": true,
                 "allowRecurse": true,
                 "deps": Array [
+                  Set {
+                    [Circular],
+                  },
                   Set {
                     [Circular],
                   },
@@ -2648,6 +2768,7 @@ jane.doe@lukognito.com",
             "inviteeList": Array [
               "_a@a",
             ],
+            "isApiError": false,
             "isButtonDisabled": true,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -2999,17 +3120,18 @@ jane.doe@lukognito.com",
                     "children": "_a@a is invalid.",
                     "component": null,
                     "dirs": null,
-                    "dynamicChildren": null,
+                    "dynamicChildren": Array [],
                     "dynamicProps": null,
                     "el": <span
                       class="email-invite__info__label"
                     >
                       _a@a is invalid.
                     </span>,
-                    "key": null,
+                    "key": 0,
                     "patchFlag": 1,
                     "props": Object {
                       "class": "email-invite__info__label",
+                      "key": 0,
                     },
                     "ref": null,
                     "scopeId": null,
@@ -3036,17 +3158,18 @@ jane.doe@lukognito.com",
                     "children": "_a@a is invalid.",
                     "component": null,
                     "dirs": null,
-                    "dynamicChildren": null,
+                    "dynamicChildren": Array [],
                     "dynamicProps": null,
                     "el": <span
                       class="email-invite__info__label"
                     >
                       _a@a is invalid.
                     </span>,
-                    "key": null,
+                    "key": 0,
                     "patchFlag": 1,
                     "props": Object {
                       "class": "email-invite__info__label",
+                      "key": 0,
                     },
                     "ref": null,
                     "scopeId": null,
@@ -3694,17 +3817,18 @@ jane.doe@lukognito.com",
                     "children": "_a@a is invalid.",
                     "component": null,
                     "dirs": null,
-                    "dynamicChildren": null,
+                    "dynamicChildren": Array [],
                     "dynamicProps": null,
                     "el": <span
                       class="email-invite__info__label"
                     >
                       _a@a is invalid.
                     </span>,
-                    "key": null,
+                    "key": 0,
                     "patchFlag": 1,
                     "props": Object {
                       "class": "email-invite__info__label",
+                      "key": 0,
                     },
                     "ref": null,
                     "scopeId": null,
@@ -3731,17 +3855,18 @@ jane.doe@lukognito.com",
                     "children": "_a@a is invalid.",
                     "component": null,
                     "dirs": null,
-                    "dynamicChildren": null,
+                    "dynamicChildren": Array [],
                     "dynamicProps": null,
                     "el": <span
                       class="email-invite__info__label"
                     >
                       _a@a is invalid.
                     </span>,
-                    "key": null,
+                    "key": 0,
                     "patchFlag": 1,
                     "props": Object {
                       "class": "email-invite__info__label",
+                      "key": 0,
                     },
                     "ref": null,
                     "scopeId": null,
@@ -4411,6 +4536,7 @@ jane.doe@lukognito.com"
     "inviteeList": Array [
       "_a@a",
     ],
+    "isApiError": false,
     "isButtonDisabled": true,
     "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -4615,6 +4741,7 @@ jane.doe@lukognito.com"
           "handleSendInvitesOnClick": [Function],
           "hasOwnProperty": [Function],
           "inviteeList": Array [],
+          "isApiError": false,
           "isButtonDisabled": true,
           "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -4669,6 +4796,7 @@ jane.doe@lukognito.com",
             "handleSendInvitesOnClick": 4,
             "hasOwnProperty": 4,
             "inviteeList": 1,
+            "isApiError": 1,
             "isButtonDisabled": 1,
             "isVueInstance": 0,
             "placeholder": 1,
@@ -4750,6 +4878,7 @@ jane.doe@lukognito.com",
             "handleSendInvitesOnClick": [Function],
             "hasOwnProperty": [Function],
             "inviteeList": Array [],
+            "isApiError": false,
             "isButtonDisabled": true,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -4777,6 +4906,9 @@ jane.doe@lukognito.com",
                       [Circular],
                     },
                     [Circular],
+                    Set {
+                      [Circular],
+                    },
                     Set {
                       [Circular],
                     },
@@ -4811,6 +4943,43 @@ jane.doe@lukognito.com",
                     Set {
                       [Circular],
                     },
+                    Set {
+                      [Circular],
+                    },
+                  ],
+                  "fn": [Function],
+                  "onTrack": undefined,
+                  "onTrigger": undefined,
+                  "scheduler": [Function],
+                },
+              },
+            },
+            "isApiError": RefImpl {
+              "__v_isRef": true,
+              "__v_isShallow": false,
+              "_rawValue": false,
+              "_value": false,
+              "dep": Set {
+                ReactiveEffect {
+                  "active": true,
+                  "allowRecurse": true,
+                  "deps": Array [
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    Set {
+                      [Circular],
+                    },
+                    [Circular],
+                    Set {
+                      [Circular],
+                    },
                   ],
                   "fn": [Function],
                   "onTrack": undefined,
@@ -4833,6 +5002,9 @@ jane.doe@lukognito.com",
                       [Circular],
                     },
                     [Circular],
+                    Set {
+                      [Circular],
+                    },
                     Set {
                       [Circular],
                     },
@@ -4875,6 +5047,9 @@ jane.doe@lukognito.com",
                     Set {
                       [Circular],
                     },
+                    Set {
+                      [Circular],
+                    },
                   ],
                   "fn": [Function],
                   "onTrack": undefined,
@@ -4890,6 +5065,9 @@ jane.doe@lukognito.com",
             "active": true,
             "allowRecurse": true,
             "deps": Array [
+              Set {
+                [Circular],
+              },
               Set {
                 [Circular],
               },
@@ -4936,6 +5114,7 @@ jane.doe@lukognito.com",
             "handleSendInvitesOnClick": [Function],
             "hasOwnProperty": [Function],
             "inviteeList": Array [],
+            "isApiError": false,
             "isButtonDisabled": true,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -4969,6 +5148,9 @@ jane.doe@lukognito.com",
                   Set {
                     [Circular],
                   },
+                  Set {
+                    [Circular],
+                  },
                 ],
                 "fn": [Function],
                 "onTrack": undefined,
@@ -4986,6 +5168,7 @@ jane.doe@lukognito.com",
           "setupState": Object {
             "errors": Array [],
             "inviteeList": Array [],
+            "isApiError": false,
             "isButtonDisabled": true,
             "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
@@ -6482,6 +6665,7 @@ jane.doe@lukognito.com"
     "handleSendInvitesOnClick": [Function],
     "hasOwnProperty": [Function],
     "inviteeList": Array [],
+    "isApiError": false,
     "isButtonDisabled": true,
     "placeholder": "john.doe@lukognito.com
 jane.doe@lukognito.com",
